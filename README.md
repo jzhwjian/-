@@ -33,3 +33,7 @@
 
 四、MTK开机第一次网络定位失败，重新定位后成功
 ---MTK开机后Location数据被清空。 配置网络定位服务后现象还存在，后面开机后连接WIFI后，系统主动去网络定位更新location。
+
+五、MTK BCTC问题
+1、OEM lock问题(orang与green状态)
+2、更新系统签名文件，开启SELinx和DM-verity后导致开机DM验证失败 
